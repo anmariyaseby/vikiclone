@@ -1,0 +1,195 @@
+body{
+    overflow-x: hidden;
+}
+.content-image{
+  background: linear-gradient(to right,black 5%,transparent 35%),url('https://1.vikiplatform.com/c/36770c/6b0872461a.jpg?x=b&a=0x0') ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+/* .content{
+    width: 700px;
+} */
+ #navbar ul{
+ 
+  line-height: 30px;
+  align-items: center;
+  justify-content: center;
+}  
+#check{
+  display: none;
+}
+.icons{
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 1000;
+  position: absolute;
+  right: 5%;
+  display: none;
+  cursor: pointer;
+}
+@media(max-width:600px) {
+  .icons{
+      display: flex;
+  }
+  #closeicon{
+      display: none;
+  }
+  #check:checked~.icons #menuicon{
+      display: none;
+  }
+  #check:checked~ ul{
+      display: flex;
+  }
+  #check:checked~.icons #closeicon{
+      display: flex;
+  }
+  #navbar ul{
+    flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      padding-right: 30px;
+      background-color: black;
+      display: none;
+  }
+  #navbar a{
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1.1rem 0px;
+  }
+
+}
+@media(max-width:768px) {
+  .icons{
+      display: flex;
+  }
+  #closeicon{
+      display: none;
+  }
+  #check:checked~.icons #menuicon{
+      display: none;
+  }
+  #check:checked~ ul{
+      display: flex;
+  }
+  #check:checked~.icons #closeicon{
+      display: flex;
+  }
+  #navbar ul{
+    flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      padding-right: 30px;
+      background-color: black;
+      display: none;
+  }
+  #navbar a{
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1.1rem 0px;
+  }
+
+}
+@media(max-width:992px){
+  .icons{
+      display: flex;
+  }
+  #closeicon{
+      display: none;
+  }
+  #check:checked~.icons #menuicon{
+      display: none;
+  }
+  #check:checked~ ul{
+      display: flex;
+  }
+  #check:checked~.icons #closeicon{
+      display: flex;
+  }
+  #navbar ul{
+    flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      padding-right: 30px;
+      background-color: black;
+      display: none;
+  }
+  #navbar a{
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1.1rem 0px;
+  }
+
+}
+@media(max-width:1100px){
+  .icons{
+      display: flex;
+  }
+  #closeicon{
+      display: none;
+  }
+  #check:checked~.icons #menuicon{
+      display: none;
+  }
+  #check:checked~ ul{
+      display: flex;
+  }
+  #check:checked~.icons #closeicon{
+      display: flex;
+  }
+  #navbar ul{
+    flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      padding-right: 30px;
+      background-color: black;
+      display: none;
+  }
+  #navbar a{
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1.1rem 0px;
+  }
+
+}
+@media(max-width:1200px){
+  .icons{
+      display: flex;
+  }
+  #closeicon{
+      display: none;
+  }
+  #check:checked~.icons #menuicon{
+      display: none;
+  }
+  #check:checked~ ul{
+      display: flex;
+  }
+  #check:checked~.icons #closeicon{
+      display: flex;
+  }
+  #navbar ul{
+    flex-direction: column;
+      position: absolute;
+      padding-right: 30px;
+      top: 50px;
+      right: 0px;
+      background-color: black;
+      display: none;
+  }
+  #navbar a{
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1.1rem 0px;
+  }
+
+}

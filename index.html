@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss_project</title>
+    <!-- link to talilwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- /link to talilwind -->
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- /link to css -->
+    <!-- link to font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /link to font awesome -->
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <section id="navbar" class="flex px-10 py-5 text-white bg-black items-center justify-between flex-wrap">
+        <img class="w-40" src="./image/logo.png" alt="No-Image">
+        <input type="checkbox" id="check" class="hidden">
+        <!-- <label for="check" class="icons text-3xl absolute right-5 cursor-pointer lg:hidden top-30px">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+        </label>
+         -->
+         <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <!-- menu icon -->
+            <i class="fa-solid fa-bars" style="color: #ffffff;" id="menuicon"></i>
+            <!-- close icon -->
+            <i class="fa-solid fa-xmark" style="color: #ffffff;" id="closeicon"></i>
+        </label>
+            <ul class=" flex flex-row leading-10 flex-wrap  ">
+                <li list-none class="font-bold">
+                    <select name="" id="" class=" bg-black hidden lg:flex hover:text-blue-600 cursor-pointer">
+                        <option value="" hidden>Categories</option>
+                        <option value="">Korea</option>
+                        <option value="">Mainland China</option>
+                        <option value="">Japan</option>
+                    </select>
+                </li>
+                <li list-none class=" font-bold ml-20 "><a href="" class="hover:underline hover:text-blue-500">Community</a></li>
+                <li list-none class=" font-bold ml-20 "><a href="" class="hover:underline hover:text-blue-500">Apps</a></li>
+            <!-- </ul> -->
+            <!-- <ul class="flex text-lg items-center  flex-wrap"> -->
+                <li list-none class="w-40 bg-blue-600 flex items-center justify-center h-10 font-bold ml-20"><a 
+                        href="">Get Viki Pass</a></li>
+                <li list-none class=" font-bold ml-20 "><a href="" class="hover:underline hover:text-blue-500">Log in</a></li>
+                <li list-none class=" font-bold ml-20 "><a href="" class="hover:underline hover:text-blue-500">Create Account</a></li>
+            </ul>
+    
+    </section>
+
+    <!-- /nav bar -->
+    <!-- main image -->
+    <section id="main" class="flex">
+        <div class="content bg-black w-auto  text-white h-700  pt-40 pl-5 pb-20 lg:pl-20 md:pl-20  ">
+            <h1 class="text-3xl font-semibold">Go Ahead <i class="fa-solid fa-star" style="color: #FFD43B;"></i>9.6
+                <span class="text-lg text-gray-400"> (168,421)</span></h1>
+            <p class="text-gray-300 pt-5">Genres : Romantic Comedy, Family & Kids, Drama <br>Cast : Tan Song Yun, Song
+                Wei Long, Zhang Xin Cheng</p>
+            <div class="lg:flex md:flex  mt-10 justify-between gap-5">
+                <div class="w-28 mb-2 lg:w-48 md:w-48 h-12 bg-blue-600 flex items-center justify-center font-bold  "><a href=""
+                        class=" text-white"><i class="fa-solid fa-play" style="color: white;"></i> Ep.1</a></div>
+                <div class="w-28 lg:w-48 md:w-48 h-12 bg-gray-700 flex items-center justify-center font-bold"><a href=""
+                        class=" text-white"><i class="fa-solid fa-plus" style="color: #ebebeb;"></i> Watchlist</a></div>
+            </div>
+            <p class="text-gray-300 pt-10">Subtitles : English, Arabic, Czech and 17 more</p>
+            <p class="text-gray-300 ">Subs By : ✨ Together Forever 💖 Team</p>
+        </div>
+        <div class="content-image">
+        </div>
+    </section>
+    <!-- /main image -->
+    <!--movie section-->
+    <section id="movie" class="bg-zinc-900 text-white px-10 py-5">
+        <h1 class="text-3xl font-bold cursor-pointer">Latest Releases <span class="text-gray-300 text-xl"> See
+                All</span> </h1>
+        <div class="flex justify-evenly flex-wrap">
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image1" alt="No-Image"
+                    class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Extra-ordinary You</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image2.jpg"
+                    alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Fateful Love</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image3.png" alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Their Wonderful Time </p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image4" alt="No-Image"
+                    class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">You are My Heartbeat</p>
+            </div>
+        </div>
+        <h1 class="text-3xl font-bold cursor-pointer pt-16">Rewriting the Best Stories <span
+                class="text-gray-300 text-xl"> See All</span> </h1>
+        <div class="flex justify-evenly flex-wrap">
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image5.jpg" alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">When a Snail Falls in Love</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image6.jpg" alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Put Your Head on My Shoulder</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image7.jpg" alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Splash Splash Love</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image8.jpg" alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Beauty Newbie</p>
+            </div>
+        </div>
+        <h1 class="text-3xl font-bold cursor-pointer pt-16">Rewind & Unwind <span class="text-gray-300 text-xl"> See
+                All</span> </h1>
+        <div class="flex justify-evenly flex-wrap">
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image9"
+                    alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">The Legend of the Blue Sea</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image10.png"
+                    alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Guardian</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image11"
+                    alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">Boys Over Flowers</p>
+            </div>
+            <div class="w-80  mt-5 cursor-pointer hover:scale-110 transform transition duration-300">
+                <img src="./image/image12.jpg"
+                    alt="No-Image" class="">
+                <p class="text-gray-300 pt-2 text-lg">Watch Free</p>
+                <p class="text-white text-xl font-bold">While You Were Sleeping</p>
+            </div>
+        </div>
+    </section>
+    <!-- /movie section-->
+    <!-- footer section -->
+    <section id="footer" class="bg-black text-white pl-40 pr-40 flex pt-10 justify-between items-center flex-wrap">
+        <div>
+            <img src="./image/logo_blackandwhite.png" alt="" class="w-40">
+            <div class="flex justify-evenly pb-10 text-lg cursor-pointer">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <div>
+            <p class="text-gray-300 hover:underline cursor-pointer">Help Center</p> <br>
+            <p class="text-gray-300 hover:underline cursor-pointer">Work with us</p>
+        </div>
+        <div class="text-gray-300 cursor-pointer">
+            <p class="hover:underline cursor-pointer">Distribution Partners</p> <br>
+            <p class="hover:underline cursor-pointer">Advertisers</p>
+            <p class="hover:underline cursor-pointer">Press Center</p>
+        </div>
+        <div class="text-gray-300">
+            <p class="hover:underline cursor-pointer">Terms of use</p> <br>
+            <p class="hover:underline cursor-pointer">Privacy Policy</p>
+            <p class="hover:underline cursor-pointer">Cookies Policy</p>
+            <p class="hover:underline cursor-pointer">Copyright Policy</p>
+        </div>
+    </section>
+
+    <!--/footer section -->
+
+
+</body>
+
+</html>
